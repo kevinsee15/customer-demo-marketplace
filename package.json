@@ -1,0 +1,33 @@
+{
+    "name": "mongodb-atlas-fair-marketplace",
+    "version": "1.0.0",
+    "description": "MongoDB Atlas demo implementing fair seller distribution using round-robin logic",
+    "main": "marketplace.js",
+    "scripts": {
+        "start": "node marketplace.js",
+        "seed": "node marketplace.js seed",
+        "search": "node marketplace.js search",
+        "stats": "node marketplace.js stats",
+        "compare": "node marketplace.js compare",
+        "config": "node marketplace.js config",
+        "help": "node marketplace.js help"
+    },
+    "keywords": [
+        "mongodb",
+        "atlas",
+        "marketplace",
+        "round-robin",
+        "fair-distribution",
+        "aggregation"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "mongodb": "^6.3.0",
+        "@faker-js/faker": "^8.4.0",
+        "dotenv": "^16.3.1"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
